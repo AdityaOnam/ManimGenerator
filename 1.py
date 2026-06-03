@@ -215,18 +215,9 @@ class MathProblem(Scene):
             fill_opacity=0.1
         ).move_to(final_ans)
         
-        self.play(Write(final_ans))
-        self.play(Create(box_ans))
-        self.wait(2)
-
-        # ---------------------------------------------------------
-        # SCENE 6: End Sequence (Fade out and highlight)
-        # ---------------------------------------------------------
-        all_except_final = VGroup(
-            title_group, given_text, eq6, step4_text, 
-            eq7, eq8, eq9, step5_text, bottom_txt2
-        )
-        self.play(FadeOut(all_except_final))
-        
-        self.play(VGroup(final_ans, box_ans).animate.move_to(ORIGIN).scale(1.2))
-        self.wait(3)
+        # Combined fast animation for final answer and box
+        self.play(Write(final_ans), Create(box_ans), run_time=0.5)
+        # Fade out everything including the final answer and surrounding elements
+        self.play(FadeOut(VGroup(final_ans, box_ans, title_group, given_text, eq6, step4_text,
+            eq7, eq8, eq9, step5_text, bottom_txt2)), run_time=0.5)
+        self.wait(0.2)

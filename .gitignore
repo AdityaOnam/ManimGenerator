@@ -1,9 +1,8 @@
 # Manim render outputs
-media/
-final_output.mp4
+
 
 # Input assets
-question.png
+
 
 # Python cache & temporary files
 __pycache__/
