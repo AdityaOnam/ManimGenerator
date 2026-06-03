@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/872892258_4157028755_2548133098.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_1845022160_2881900592.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_3585970359_1540055600.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_3128960759_1357626760.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_3585970359_2626266704.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_1470971309_3619129384.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_3585970359_791101093.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_296309018_4102764665.mp4'
+file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/PortraitSubmitScene/1776633564_2552855209_3665949530.mp4'
