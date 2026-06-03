@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/QuizHookOnly/1456882298_1134476906_223132457.mp4'
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/QuizHookOnly/3688620337_4253927329_2010463529.mp4'
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/QuizHookOnly/3688620337_3366045169_730655199.mp4'
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/end/1920p15/partial_movie_files/QuizHookOnly/3688620337_2342160325_1101682277.mp4'

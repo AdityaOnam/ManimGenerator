@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/begin/1920p15/partial_movie_files/IntroScene/2671905438_3109678260_223132457.mp4'
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/begin/1920p15/partial_movie_files/IntroScene/959540817_3394500337_1414685380.mp4'
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/begin/1920p15/partial_movie_files/IntroScene/959540817_3794018575_2445152973.mp4'
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/begin/1920p15/partial_movie_files/IntroScene/959540817_2903661743_3992808042.mp4'
-file 'file:C:/Users/adity/OneDrive/Desktop/Manim/media/videos/begin/1920p15/partial_movie_files/IntroScene/959540817_1623628406_3483814261.mp4'

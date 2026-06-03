@@ -13,7 +13,27 @@ This directory contains Manim script pipelines designed for generating vertical 
 
 ## 💻 Commands Reference
 
-Manim provides flags to compile videos at various quality levels and frame rates. The automation merge script (`merge_videos.py`) works dynamically for any compiled quality.
+### 🚀 The One-Command Pipeline (Recommended)
+To automate the entire process (compiling the intro card, the main video, the outro video, and merging them together), use the `run_pipeline.py` script. You can specify the quality level with the `-q` or `--quality` flag:
+
+* **Low Quality (Fast Draft)**:
+  ```powershell
+  python run_pipeline.py -q l
+  ```
+* **Medium Quality**:
+  ```powershell
+  python run_pipeline.py -q m
+  ```
+* **High Quality (1080p HD)**:
+  ```powershell
+  python run_pipeline.py -q h
+  ```
+* **4K Quality (Maximum Export)**:
+  ```powershell
+  python run_pipeline.py -q k
+  ```
+
+---
 
 ### 🌟 Quality Preset Reference Table
 

@@ -1,0 +1,17 @@
+# Manim render outputs
+media/
+final_output.mp4
+
+# Input assets
+question.png
+
+# Python cache & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment / IDE settings
+.vscode/
+.idea/
+.gemini/
+*.log
