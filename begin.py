@@ -22,9 +22,9 @@ class IntroScene(Scene):
         # ---------------------------------------------------------
         # SCENE 1: Header Titles (Matching 1.py exactly)
         # ---------------------------------------------------------
-        title_line1 = Text("MOST REPEATED", font_size=36, weight=BOLD, color=YELLOW)
-        title_line2 = Text("PYQs", font_size=36, weight=BOLD, color=WHITE)
-        title_line3 = Text("JEE MAIN 2027", font_size=36, weight=BOLD, color=CYAN)
+        title_line1 = Text("MOST REPEATED", font="Arial", font_size=36, weight=BOLD, color=YELLOW)
+        title_line2 = Text("PYQs", font="Arial", font_size=36, weight=BOLD, color=WHITE)
+        title_line3 = Text("JEE MAIN 2027", font="Arial", font_size=36, weight=BOLD, color=CYAN)
         title_text = VGroup(title_line1, title_line2, title_line3).arrange(DOWN, buff=0.35)
         
         title_box = RoundedRectangle(
@@ -37,7 +37,7 @@ class IntroScene(Scene):
             fill_opacity=0.9
         )
         title_text.move_to(title_box.get_center())
-        title_group = VGroup(title_box, title_text).to_edge(UP, buff=0.6)
+        title_group = VGroup(title_box, title_text).to_edge(UP, buff=1.2)
         
         # ---------------------------------------------------------
         # SCENE 2: Center Image Plugin (Border removed to merge seamlessly)
@@ -51,7 +51,7 @@ class IntroScene(Scene):
             # Ensure it doesn't overflow vertically into the header
             if image.height > 6.0:
                 image.scale_to_fit_height(6.0)
-            image.move_to(ORIGIN)
+            image.move_to(DOWN * 0.8)
             image_mobject = image # No border, merges seamlessly with black background
         else:
             # Fallback beautiful placeholder if the user hasn't copied the image yet
@@ -66,6 +66,7 @@ class IntroScene(Scene):
             ).move_to(ORIGIN)
             placeholder_text = Text(
                 "Please place 'question.png'\nin the workspace directory:\n\nC:\\Users\\adity\\OneDrive\\Desktop\\Manim\\",
+                font="Arial",
                 font_size=22,
                 color=WHITE,
                 line_spacing=1.2

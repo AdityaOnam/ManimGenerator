@@ -3,10 +3,16 @@ import subprocess
 import sys
 
 def find_file(filename, search_path):
+    latest_file = None
+    latest_mtime = 0
     for root, dirs, files in os.walk(search_path):
         if filename in files:
-            return os.path.abspath(os.path.join(root, filename))
-    return None
+            full_path = os.path.abspath(os.path.join(root, filename))
+            mtime = os.path.getmtime(full_path)
+            if mtime > latest_mtime:
+                latest_mtime = mtime
+                latest_file = full_path
+    return latest_file
 
 def merge():
     print("Searching for compiled video files...")
